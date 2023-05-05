@@ -1,0 +1,187 @@
+:root {
+  // 纯色
+  --color-blue-1: 72, 129, 254;
+  --color-blue-2: 26, 97, 254;
+  --color-blue-3: 24, 90, 236;
+  --color-mist-1: 0, 0, 0;
+  --color-mist-2: 28, 30, 45;
+  --color-mist-3: 46, 49, 68;
+  --color-mist-4: 57, 60, 78;
+  --color-mist-5: 77, 80, 96;
+  --color-mist-6: 117, 124, 140;
+  --color-gray-1: 88, 88, 88;
+  --color-gray-2: 124, 125, 127;
+  --color-gray-3: 57, 60, 78;
+  --color-white: 255, 255, 255;
+  --color-yellow: 248, 203, 88;
+  --color-red: 248, 88, 88;
+  --color-green: 139, 231, 137;
+  // 特殊色
+  --color-heaven: 119, 120, 245;
+  --color-ashes: 206, 213, 255;
+  --color-natural: 95, 189, 0;
+  // 功能色
+  --color-text-primary: 255, 255, 255;
+  --color-text-default: 117, 124, 140;
+  --color-bg-primary: 28, 30, 45;
+  --color-bg-column-primary: 46, 49, 68;
+  --color-bg-column-secondary: 57, 60, 78;
+  --color-bg-column-tertiary: 77, 80, 96;
+  --color-border: 0, 0, 0;
+  // 按钮文本
+  --color-propor-button: 255, 255, 255;
+  //高亮色
+  --color-propor-highlight: 206, 213, 255;
+  // 轴元件 icon 用色
+  --color-show-1: 206, 213, 255;
+}
+
+.light {
+  --color-blue-1: 85, 128, 226;
+  --color-blue-2: 43, 98, 228;
+  --color-blue-3: 40, 89, 204;
+  --color-mist-1: 225, 229, 240;
+  --color-mist-2: 247, 248, 255;
+  --color-mist-3: 215, 224, 240;
+  --color-mist-4: 172, 179, 197;
+  --color-mist-5: 206, 215, 234;
+  --color-mist-6: 117, 124, 140;
+  --color-gray-1: 195, 206, 218;
+  --color-gray-2: 201, 212, 237;
+  --color-gray-3: 57, 60, 78;
+  --color-white: 44, 62, 104;
+  --color-yellow: 245, 181, 15;
+  --color-red: 243, 95, 62;
+  --color-green: 82, 206, 79;
+  // 特殊色
+  --color-heaven: 16, 189, 243;
+  --color-ashes: 93, 108, 143;
+  --color-natural: 255, 217, 120;
+  // 功能色
+  --color-text-primary: 44, 62, 104;
+  --color-text-default: 117, 124, 140;
+  --color-bg-primary: 247, 248, 255;
+  --color-bg-column-primary: 181, 189, 208;
+  --color-bg-column-secondary: 172, 179, 197;
+  --color-bg-column-tertiary: 154, 161, 177;
+  --color-border: 232, 235, 243;
+  // 按钮文本
+  --color-propor-button: 255, 255, 255;
+  //高亮色
+  --color-propor-highlight: 43, 98, 228;
+  // 轴元件 icon 用色
+  --color-show-1: 209, 244, 255;
+}
+
+.dark {
+  // 纯色
+  --color-blue-1: 72, 129, 254;
+  --color-blue-2: 26, 97, 254;
+  --color-blue-3: 24, 90, 236;
+  --color-mist-1: 0, 0, 0;
+  --color-mist-2: 28, 30, 45;
+  --color-mist-3: 46, 49, 68;
+  --color-mist-4: 57, 60, 78;
+  --color-mist-5: 77, 80, 96;
+  --color-mist-6: 117, 124, 140;
+  --color-gray-1: 88, 88, 88;
+  --color-gray-2: 124, 125, 127;
+  --color-gray-3: 57, 60, 78;
+  --color-white: 255, 255, 255;
+  --color-yellow: 248, 203, 88;
+  --color-red: 248, 88, 88;
+  --color-green: 139, 231, 137;
+  // 特殊色
+  --color-heaven: 119, 120, 245;
+  --color-ashes: 206, 213, 255;
+  --color-natural: 95, 189, 0;
+  // 功能色
+  --color-text-primary: 255, 255, 255;
+  --color-text-default: 117, 124, 140;
+  --color-bg-primary: 28, 30, 45;
+  --color-bg-column-primary: 46, 49, 68;
+  --color-bg-column-secondary: 57, 60, 78;
+  --color-bg-column-tertiary: 77, 80, 96;
+  --color-border: 0, 0, 0;
+  // 按钮文本
+  --color-propor-button: 255, 255, 255;
+  //高亮色
+  --color-propor-highlight: 206, 213, 255;
+  // 轴元件 icon 用色
+  --color-show-1: 206, 213, 255;
+}
+
+@variants dark {
+  .bg-aurora {
+    background: linear-gradient(269.95deg, #7778f5 13.67%, #1a61fe 99.96%);
+  }
+  .bg-aurora-opacity-20 {
+    background: linear-gradient(269.95deg, rgba(119, 120, 245, 0.2) 13.67%, rgba(26, 97, 254, 0.2) 99.96%);
+  }
+  .bg-aurora-opacity-40 {
+    background: linear-gradient(269.95deg, rgba(119, 120, 245, 0.4) 13.67%, rgba(26, 97, 254, 0.4) 99.96%);
+  }
+  .bg-aurora-opacity-60 {
+    background: linear-gradient(269.95deg, rgba(119, 120, 245, 0.6) 13.67%, rgba(26, 97, 254, 0.6) 99.96%);
+  }
+  .layout-shadow-top {
+    box-shadow: 0 1px 0 0 #000 inset;
+  }
+  .layout-shadow-right {
+    box-shadow: -1px 0 0 0 #000 inset;
+  }
+  .layout-shadow-bottom {
+    box-shadow: 0 -1px 0 0 #000 inset;
+  }
+  .layout-shadow-left {
+    box-shadow: 1px 0 0 0 #000 inset;
+  }
+  .bg-collapsed-icon {
+    background: linear-gradient(90deg, rgba(var(--color-mist-2), 0) -8.13%, #1c1e2d 38.62%, #1c1e2d 100%);
+  }
+}
+@variants light {
+  .bg-aurora {
+    background: linear-gradient(270deg, #38cfff 16.77%, #40ff81 100%);
+  }
+  .bg-aurora-opacity-20 {
+    background: linear-gradient(
+      270deg,
+      rgba(124, 255, 216, 0.2) 0%,
+      rgba(160, 222, 255, 0.2) 42.71%,
+      rgba(47, 219, 255, 0.2) 100%
+    );
+  }
+  .bg-aurora-opacity-40 {
+    background: linear-gradient(
+      270deg,
+      rgba(124, 255, 216, 0.4) 0%,
+      rgba(159, 232, 255, 0.4) 50%,
+      rgba(41, 218, 255, 0.4) 100%
+    );
+  }
+  .bg-aurora-opacity-60 {
+    background: linear-gradient(
+      270deg,
+      rgba(41, 218, 255, 0.6) 0%,
+      rgba(124, 255, 216, 0.6) 0.01%,
+      rgba(159, 232, 255, 0.6) 49.48%,
+      rgba(41, 218, 255, 0.6) 100%
+    );
+  }
+  .layout-shadow-top {
+    box-shadow: 0 1px 0 0 #e8ebf3 inset;
+  }
+  .layout-shadow-right {
+    box-shadow: -1px 0 0 0 #e8ebf3 inset;
+  }
+  .layout-shadow-bottom {
+    box-shadow: 0 -1px 0 0 #e8ebf3 inset;
+  }
+  .layout-shadow-left {
+    box-shadow: 1px 0 0 0 #e8ebf3 inset;
+  }
+  .bg-collapsed-icon {
+    background: linear-gradient(90deg, rgba(var(--color-mist-2), 0) -8.13%, #f6f8fc 38.62%, #f6f8fc 100%);
+  }
+}
